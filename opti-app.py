@@ -12,7 +12,7 @@ checks()
 # Initialize YOLO model and OCR reader
 @st.cache_resource
 def load_model():
-    model = YOLO("/home/unthinkable-lap/Desktop/streamlit-app/best1.pt")
+    model = YOLO("best1.pt")
     reader = easyocr.Reader(['en'])
     return model, reader
 

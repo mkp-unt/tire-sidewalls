@@ -10,7 +10,7 @@ import cv2
 checks()
 
 # Initialize YOLO model
-model = YOLO("/home/unthinkable-lap/Desktop/streamlit-app/best1.pt")
+model = YOLO("best1.pt")
 
 # Initialize OCR reader
 reader = easyocr.Reader(['en'])

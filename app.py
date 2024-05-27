@@ -1,3 +1,11 @@
+pip install streamlit
+pip install matplotlib
+pip install ultralytics
+pip install Pillow
+pip install numpy
+pip install easyocr
+pip install opencv-python-headless
+
 import streamlit as st
 import matplotlib.pyplot as plt
 from ultralytics import YOLO, checks
